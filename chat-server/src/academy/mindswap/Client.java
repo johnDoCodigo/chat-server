@@ -1,8 +1,6 @@
 package academy.mindswap;
 
 
-import academy.mindswap.utils.ClientMessages;
-
 import java.io.*;
 import java.net.Socket;
 import java.net.UnknownHostException;
@@ -86,7 +84,7 @@ public class Client {
             }
 
         } catch (IOException ex) {
-            System.out.printf(MESSAGE_SENDIND_ERROR, ex.getMessage());
+            System.out.printf(MESSAGE_SENDING_ERROR, ex.getMessage());
         }
     }
 }

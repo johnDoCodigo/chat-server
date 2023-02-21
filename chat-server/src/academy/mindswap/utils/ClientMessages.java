@@ -11,6 +11,6 @@ public class ClientMessages {
     public static final String CONSOLE_ERROR = "Error reading from console: %s\n";
     public static final String QUIT_MESSAGE = "/quit";
     public static final String CONNECTION_CLOSING_ERROR = "Error closing connection: %s\n";
-    public static final String MESSAGE_SENDIND_ERROR = "Error sending message to server: %s\n";
+    public static final String MESSAGE_SENDING_ERROR = "Error sending message to server: %s\n";
     public static final String MESSAGE_SERVER_SENT = "Server sent: %s\n";
 }
